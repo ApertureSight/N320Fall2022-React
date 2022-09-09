@@ -26,6 +26,7 @@ this.type = type;
 strumOpen(){
 console.log(this.strings);
 this.strings.forEach(string => {
+    const now = Tone.now()
 synth.triggerAttackRelease(string.note+string.octave, "8n");
 console.log(string.note + " Playing")
 });
@@ -65,7 +66,7 @@ var notes = [];
 notes[0] = new Note ("C", 4);
 notes[1] = new Note ("B#", 4);
 notes[2] = new Note ("Am", 4);
-notes[3] = new Notw ("Dm", 4);
+notes[3] = new Note ("Dm", 4);
 
 var myInstrument = new Instrument("Moderate", "String", "3 minutes");
 var myGuitar = new Guitar ("Taylor", strings, "Acoustic");
@@ -77,7 +78,7 @@ mySaxaphone.onComplete = playNext;
 myGuitar.displayDetails();
 myInstrument.displayDetails();
 
-let myInstruments = [myGuitar, mySaxaphone, myDrum]
+let myInstruments = [myGuitar, mySaxaphone]
 
 let i = 0;
 function playNext() {
