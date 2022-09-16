@@ -1,0 +1,147 @@
+.parent {
+    background-color: rgb(253, 249, 249);
+    height: 460px;
+    width: 100%;
+    position: relative;
+    
+}
+.title{
+    width: 250px;
+    height: 55px;
+    top: 15px;
+    left: 15px;
+    text-size-adjust: 40px;
+
+}
+.banner{
+    width: 100%;
+    height: 60px;
+    top: 70px;
+    left: 0px;
+    position: absolute;  
+    background-color: blue;
+    
+}
+
+.box1{
+    background-color: salmon;
+    height: 125px;
+    width: 250px;
+    top: 150px;
+    left: 50px;
+    position:absolute;
+
+}
+.box2{
+    background-color: salmon;
+    height: 125px;
+    width: 250px;
+    top: 150px;
+    left: 450px;
+    position: absolute;
+   
+
+}
+ .box3{ 
+    background-color: salmon;
+    height: 125px;
+    width: 250px;
+    top: 150px;
+    left: 850px;
+    position: absolute;
+   
+
+} 
+.box4{
+    background-color: salmon;
+    height: 125px;
+    width: 250px;
+    left: 50px;
+    top: 300px;
+    position:absolute;
+   
+}
+.box5{
+    background-color: salmon;
+    height: 125px;
+    width: 250px;
+    left: 450px;
+    top: 300px;
+    position: absolute;
+
+}
+.box6{
+    background-color: salmon;
+    height: 125px;
+    width: 250px;
+    left: 850px;
+    top: 300px;
+    position: absolute;
+    
+
+}
+
+.parent:hover .box1{
+    animation:fadeIn 2s ease-in-out forwards;
+}
+.parent:hover .box2{
+    animation:fadeIn 3.5s ease-in forwards;
+}
+.parent:hover .box3{
+    animation:fadeIn 5s ease-in-out forwards;
+}
+.parent:hover .box4{
+    animation:fadeIn 5s ease-in-out forwards;
+}
+.parent:hover .box5{
+    animation:fadeIn 5s ease-in-out forwards;
+}
+.parent:hover .box6{
+    animation:fadeIn 5s ease-in-out forwards;
+}
+.parent:hover .title{
+    animation: slideIn 2s ease-in-out forwards;
+}
+
+.parent:hover .banner{
+    animation:fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes slideIn{
+    0% {
+       transform : skewX(53deg) translateX(-500);
+    }
+
+    40% {
+        transform: translateX(0);
+    }
+
+    80% {
+        transform : skewX(0deg) translateX(30px);
+    }
+
+    100% {
+        transform: skewX(0deg);
+    }
+}
+
+
