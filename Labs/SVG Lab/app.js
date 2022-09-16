@@ -72,4 +72,3 @@ class FoundBar{
 
 
 let g = new Game();
-
