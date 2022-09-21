@@ -1,0 +1,2 @@
+C:\Users\awrig\OneDrive - Indiana University\Documents\GitHub\n320Fall2022-React-JavaScript\react-lab-one\react-lab-one\obj\Debug\react-lab-one.esproj.SuggestedBindingRedirects.cache
+C:\Users\awrig\OneDrive - Indiana University\Documents\GitHub\n320Fall2022-React-JavaScript\react-lab-one\react-lab-one\obj\Debug\react-lab-one.esproj.CoreCompileInputs.cache
